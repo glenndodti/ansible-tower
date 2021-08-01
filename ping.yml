@@ -1,5 +1,7 @@
----
- - name : "Get ping response"
-   hosts : all
-   tasks :
-   - action : ping
+--- 
+- 
+  hosts: all
+  name: "Get ping response"
+  tasks: 
+    - 
+      action: ping
